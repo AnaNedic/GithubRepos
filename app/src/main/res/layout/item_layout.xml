@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/cornerRadiusStandard"
+    card_view:cardElevation="@dimen/elevationStandard"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginSmall"
+        android:orientation="vertical"
+        android:padding="@dimen/paddingStandard">
+
+        <!-- Item Full Name -->
+        <TextView
+            android:id="@+id/item_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="@dimen/paddingStandard"/>
+
+        <!-- Item Description -->
+        <TextView
+            android:id="@+id/item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/paddingStandard" />
+
+        <!-- Item Owner -->
+        <TextView
+            android:id="@+id/item_owner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeStandard"
+            android:padding="@dimen/paddingStandard"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

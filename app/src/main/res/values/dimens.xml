@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="marginMedium">16dp</dimen>
+    <dimen name="marginLarge">24dp</dimen>
+    <dimen name="elevationStandard">2dp</dimen>
+    <dimen name="paddingStandard">4dp</dimen>
+    <dimen name="textSizeStandard">12sp</dimen>
+    <dimen name="cornerRadiusStandard">4dp</dimen>
+</resources>

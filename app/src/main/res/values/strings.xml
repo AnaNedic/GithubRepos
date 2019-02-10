@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrendingReposList</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="repoimage">repoImage</string>
+</resources>
