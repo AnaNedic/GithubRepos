@@ -1,7 +1,7 @@
 # GithubRepos
 
 This is demo project that displays list of repositories fetched from a given url. Click on an item opens detailed view.
-It uses MVP architecture, Retrofit to fetch data, Gson to convert them and Glide to load images.
+Project uses MVP architecture, Retrofit to fetch data, Gson to convert them and Glide to load images.
 
 In the real-world scenario, next steps for development would be:
 - add more tests
