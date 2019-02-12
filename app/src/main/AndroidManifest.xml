@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ItemActivity"
+            android:name=".view.ItemActivity"
             android:label="@string/title_activity_item"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".presenter.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".presenter.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
